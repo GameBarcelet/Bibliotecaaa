@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+<title>Registro</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<h1>Registro Usuarios</h1>
+
+<form action="Registro.jsp" method="post">
+Matricula:<br>
+<input type="text" name="matricula"><br><br>
+
+Nombre:<br>
+<input type="text" name="nombre"><br><br>
+
+Paterno:<br>
+<input type="text" name="paterno"><br><br>
+
+Materno:<br>
+<input type="text" name="materno"><br><br>
+
+Email:<br>
+<input type="email" name="mail"><br><br>
+
+Tipo<select name="tipo">
+            <option value="A"> Admin </option>
+            <option value="L"> Alumno </option>
+            <option value="P"> Profesor </option>
+            <option value="I"> Invitado </option>
+        </select><br><br>
+
+Domicilio:<br>
+<input type="text" name="domicilio"><br><br>
+
+Telefono:<br>
+<input type="text" name="telefono"><br><br>
+
+<input type="submit" value="Registrar">
+
+</form>
+
+</body>
+</html>

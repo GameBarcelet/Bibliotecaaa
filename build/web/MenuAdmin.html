@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Administrador</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        .navegacion {
+            width: 100%;
+            height: 100vh;
+            background: #ffffff; /* Fondo blanco */
+            border-right: 2px solid #ddd;
+        }
+        .menu { list-style: none; padding: 0; margin: 0; }
+        .title-menu {
+            background: #4a5f73;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .menu li a {
+            display: block;
+            padding: 12px 20px;
+            color: #333 !important; /* Letras negras */
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+        }
+        .menu li a:hover { background: #f0f0f0; }
+        .icon-menu { margin-right: 10px; color: #2c3e50; width: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="ModificaTipo.jsp" target="contenido"><span class="fa fa-pencil icon-menu"></span>Modificar Tipo</a></li>
+            <li><a href="AltaLibro.jsp" target="contenido"><span class="fa fa-book icon-menu"></span>Alta Libros</a></li>
+            <li><a href="AltaAutor.jsp" target="contenido"><span class="fa fa-user icon-menu"></span>Alta Autor</a></li>
+            <li><a href="AltaEditorial.jsp" target="contenido"><span class="fa fa-building icon-menu"></span>Alta Editorial</a></li>
+            <li><a href="Muestra.jsp" target="contenido"><span class="fa fa-table icon-menu"></span>Ver Tabla / PDF</a></li>
+            <li><a href="Registro.html" target="contenido"><span class="fa fa-user-plus icon-menu"></span>Registro Usuario</a></li>
+            <li><a href="Devoluciones.jsp" target="contenido"><span class="fa fa-undo icon-menu"></span>Devoluciones</a></li>
+            <li><a href="PagoMultas.jsp" target="contenido"><span class="fa fa-money icon-menu"></span>Pago de Multas</a></li>  
+            <li><a href="ReporteLibrosPrestamos.jsp" target="contenido"><span class="fa fa-bar-chart icon-menu"></span>Reporte Libros</a></li>
+            <li><a href="ReporteMultasPorMes.jsp" target="contenido"><span class="fa fa-line-chart icon-menu"></span>Reporte Multas</a></li>
+            <li><a href="ReporteUsuariosPrestamos.jsp" target="contenido"><span class="fa fa-pie-chart icon-menu"></span>Reporte Usuarios</a></li>
+            <li><a href="index.html" target="_top"><span class="fa fa-sign-out icon-menu"></span>Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Menú Invitado</title>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        header { display: none !important; }
+        .navegacion { width: 100% !important; height: 100vh !important; position: fixed !important; top: 0 !important; left: 0 !important; display: block !important; background: #fff !important; }
+        .menu { width: 100% !important; height: 100% !important; position: absolute !important; top: 0 !important; left: 0 !important; margin: 0 !important; box-shadow: none !important; }
+    </style>
+</head>
+<body>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="title-menu">Panel Invitado</li>
+
+            <li><a href="Consulta.jsp" target="contenido"><span class="fa fa-eye icon-menu"></span>Ver Libros</a></li>
+            <li><a href="PrestamosInv.jsp" target="contenido"><span class="fa fa-exchange icon-menu"></span>Prestamos</a></li>
+            
+            <li><a href="index.html" target="_top"><span class="fa fa-sign-out icon-menu"></span>Salir</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
